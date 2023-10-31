@@ -34,6 +34,7 @@ const AddComent = ({ bookId }) => {
       ...allCommenta,
       elementId: bookId,
     })
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [bookId])
 
   const postComment = async (e) => {
@@ -79,6 +80,7 @@ const AddComent = ({ bookId }) => {
               comment: e.target.value,
             })
           }}
+          required
         />
       </FormGroup>
       <FormGroup>
