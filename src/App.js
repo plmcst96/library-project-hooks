@@ -13,9 +13,9 @@ function App() {
     <div>
       <MyNav />
       <Welcome />
-      {/* <AllTheBooks /> */}
+
       <BookList books={romanceBooks} />
-      {/* <SingleBook /> */}
+
       <MyFooter />
     </div>
   );
